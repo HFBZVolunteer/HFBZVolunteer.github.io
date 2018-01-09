@@ -1,440 +1,246 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=gb2312">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:ËÎÌå;
-	panose-1:2 1 6 0 3 1 1 1 1 1;}
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:Georgia;
-	panose-1:2 4 5 2 5 4 5 2 3 3;}
-@font-face
-	{font-family:"Microsoft YaHei UI";
-	panose-1:2 11 5 3 2 2 4 2 2 4;}
-@font-face
-	{font-family:"Segoe UI";
-	panose-1:2 11 5 2 4 2 4 2 2 3;}
-@font-face
-	{font-family:"Baskerville Old Face";
-	panose-1:2 2 6 2 8 5 5 2 3 3;}
-@font-face
-	{font-family:Î¢ÈíÑÅºÚ;
-	panose-1:2 11 5 3 2 2 4 2 2 4;}
-@font-face
-	{font-family:"\@Î¢ÈíÑÅºÚ";}
-@font-face
-	{font-family:"\@Microsoft YaHei UI";}
-@font-face
-	{font-family:"\@ËÎÌå";
-	panose-1:2 1 6 0 3 1 1 1 1 1;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:10.0pt;
-	font-family:"Georgia",serif;
-	color:#404040;}
-h1
-	{mso-style-link:"±êÌâ 1 ×Ö·û";
-	margin-top:12.0pt;
-	margin-right:0cm;
-	margin-bottom:1.0pt;
-	margin-left:0cm;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Arial",sans-serif;
-	color:#E76A1D;
-	text-transform:uppercase;}
-h2
-	{mso-style-link:"±êÌâ 2 ×Ö·û";
-	margin-top:10.0pt;
-	margin-right:0cm;
-	margin-bottom:6.0pt;
-	margin-left:0cm;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Arial",sans-serif;
-	color:#E76A1D;
-	font-weight:normal;}
-h3
-	{mso-style-link:"±êÌâ 3 ×Ö·û";
-	margin-top:6.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	page-break-after:avoid;
-	font-size:10.0pt;
-	font-family:"Georgia",serif;
-	color:#404040;}
-h4
-	{mso-style-link:"±êÌâ 4 ×Ö·û";
-	margin-top:2.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	page-break-after:avoid;
-	font-size:10.0pt;
-	font-family:"Arial",sans-serif;
-	color:#404040;
-	font-weight:normal;}
-p.MsoListBullet2, li.MsoListBullet2, div.MsoListBullet2
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:12.0pt;
-	margin-left:10.8pt;
-	text-indent:-10.8pt;
-	line-height:118%;
-	font-size:8.0pt;
-	font-family:"Baskerville Old Face",serif;
-	color:black;}
-p.MsoTitle, li.MsoTitle, div.MsoTitle
-	{mso-style-link:"±êÌâ ×Ö·û";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	line-height:85%;
-	font-size:39.0pt;
-	font-family:"Arial",sans-serif;
-	color:#404040;
-	text-transform:uppercase;
-	font-weight:bold;}
-p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
-	{mso-style-link:"±êÌâ ×Ö·û";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	line-height:85%;
-	font-size:39.0pt;
-	font-family:"Arial",sans-serif;
-	color:#404040;
-	text-transform:uppercase;
-	font-weight:bold;}
-p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
-	{mso-style-link:"±êÌâ ×Ö·û";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	line-height:85%;
-	font-size:39.0pt;
-	font-family:"Arial",sans-serif;
-	color:#404040;
-	text-transform:uppercase;
-	font-weight:bold;}
-p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
-	{mso-style-link:"±êÌâ ×Ö·û";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	line-height:85%;
-	font-size:39.0pt;
-	font-family:"Arial",sans-serif;
-	color:#404040;
-	text-transform:uppercase;
-	font-weight:bold;}
-p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
-	{mso-style-link:"¸±±êÌâ ×Ö·û";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:18.0pt;
-	margin-left:0cm;
-	font-size:12.0pt;
-	font-family:"Arial",sans-serif;
-	color:#5A5A5A;}
-p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
-	{mso-style-link:"ÕýÎÄÎÄ±¾ 3 ×Ö·û";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:6.0pt;
-	margin-left:0cm;
-	line-height:118%;
-	font-size:10.5pt;
-	font-family:"Georgia",serif;
-	color:black;}
-a:link, span.MsoHyperlink
-	{color:#3E84A3;
-	text-decoration:underline;}
-a:visited, span.MsoHyperlinkFollowed
-	{color:#784869;
-	text-decoration:underline;}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-link:"Åú×¢¿òÎÄ±¾ ×Ö·û";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:9.0pt;
-	font-family:"Segoe UI",sans-serif;
-	color:#404040;}
-span.MsoPlaceholderText
-	{color:gray;}
-span.a
-	{mso-style-name:"±êÌâ ×Ö·û";
-	mso-style-link:±êÌâ;
-	font-family:"Arial",sans-serif;
-	text-transform:uppercase;
-	font-weight:bold;}
-span.a0
-	{mso-style-name:"¸±±êÌâ ×Ö·û";
-	mso-style-link:¸±±êÌâ;
-	font-family:"Arial",sans-serif;
-	color:#5A5A5A;}
-span.1
-	{mso-style-name:"±êÌâ 1 ×Ö·û";
-	mso-style-link:"±êÌâ 1";
-	font-family:"Arial",sans-serif;
-	color:#E76A1D;
-	text-transform:uppercase;
-	font-weight:bold;}
-p.a1, li.a1, div.a1
-	{mso-style-name:¿é±êÌâ;
-	margin-top:0cm;
-	margin-right:14.4pt;
-	margin-bottom:9.0pt;
-	margin-left:14.4pt;
-	line-height:90%;
-	font-size:14.0pt;
-	font-family:"Arial",sans-serif;
-	color:white;
-	text-transform:uppercase;
-	font-weight:bold;}
-p.a2, li.a2, div.a2
-	{mso-style-name:ÃèÊö;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:7.0pt;
-	font-family:"Georgia",serif;
-	color:#595959;
-	font-style:italic;}
-p.a3, li.a3, div.a3
-	{mso-style-name:¿éÎÄ±¾;
-	margin-top:0cm;
-	margin-right:14.4pt;
-	margin-bottom:3.0pt;
-	margin-left:14.4pt;
-	line-height:130%;
-	font-size:11.0pt;
-	font-family:"Georgia",serif;
-	color:white;}
-span.2
-	{mso-style-name:"±êÌâ 2 ×Ö·û";
-	mso-style-link:"±êÌâ 2";
-	font-family:"Arial",sans-serif;
-	color:#E76A1D;}
-span.3
-	{mso-style-name:"±êÌâ 3 ×Ö·û";
-	mso-style-link:"±êÌâ 3";
-	font-weight:bold;}
-p.a4, li.a4, div.a4
-	{mso-style-name:ÒýÑÔ;
-	mso-style-link:ÒýÑÔ×Ö·û;
-	margin-top:0cm;
-	margin-right:43.2pt;
-	margin-bottom:0cm;
-	margin-left:43.2pt;
-	margin-bottom:.0001pt;
-	text-align:center;
-	border:none;
-	padding:0cm;
-	font-size:14.0pt;
-	font-family:"Georgia",serif;
-	color:#404040;
-	font-style:italic;}
-span.a5
-	{mso-style-name:ÒýÑÔ×Ö·û;
-	mso-style-link:ÒýÑÔ;
-	font-family:"Microsoft YaHei UI",sans-serif;
-	font-style:italic;}
-span.4
-	{mso-style-name:"±êÌâ 4 ×Ö·û";
-	mso-style-link:"±êÌâ 4";
-	font-family:"Arial",sans-serif;}
-p.a6, li.a6, div.a6
-	{mso-style-name:ÎÞ¼ä¾à;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:10.0pt;
-	font-family:"Georgia",serif;
-	color:#404040;}
-p.a7, li.a7, div.a7
-	{mso-style-name:ÁªÏµÐÅÏ¢;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:10.0pt;
-	font-family:"Georgia",serif;
-	color:#404040;}
-span.a8
-	{mso-style-name:ÔöÇ¿;
-	font-family:"Microsoft YaHei UI",sans-serif;
-	color:#5A5A5A;
-	font-weight:bold;}
-p.a9, li.a9, div.a9
-	{mso-style-name:ÁªÏµÈË±êÌâ;
-	margin-top:4.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Arial",sans-serif;
-	color:#E76A1D;}
-p.aa, li.aa, div.aa
-	{mso-style-name:×éÖ¯;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:11.0pt;
-	font-family:"Arial",sans-serif;
-	color:#E76A1D;
-	text-transform:uppercase;
-	font-weight:bold;}
-span.ab
-	{mso-style-name:"Åú×¢¿òÎÄ±¾ ×Ö·û";
-	mso-style-link:Åú×¢¿òÎÄ±¾;
-	font-family:"Segoe UI",sans-serif;}
-span.30
-	{mso-style-name:"ÕýÎÄÎÄ±¾ 3 ×Ö·û";
-	mso-style-link:"ÕýÎÄÎÄ±¾ 3";
-	font-family:"Georgia",serif;
-	color:black;}
-.MsoChpDefault
-	{font-size:10.0pt;
-	color:#404040;}
-.MsoPapDefault
-	{margin-bottom:10.0pt;
-	line-height:125%;}
- /* Page Definitions */
- @page WordSection1
-	{size:612.0pt 792.0pt;
-	margin:39.6pt 36.0pt 36.0pt 36.0pt;}
-div.WordSection1
-	{page:WordSection1;}
--->
-</style>
-
+<title>Home</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Open Heart Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='https://fonts.googleapis.com/ css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+<!--//fonts-->
 </head>
+<body> 
+<!--header-->
 
-<body lang=ZH-CN link="#3E84A3" vlink="#784869">
+	<!--banner-->
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+	<div class="slider">
+	    <div class="callbacks_container">
+	      <ul class="rslides" id="slider">
+	        <li>
+	          <img src="images/banner.jpg" alt="">
+	          <div class="banner">
+				<h2>å¥‰çŒ® å‹çˆ± äº’åŠ© è¿›æ­¥ </h2>
+				<p>åˆè‚¥å…«ä¸­å¿ƒçƒ›é’å¹´å¿—æ„¿è€…åä¼š</p>
+			</div>
+	        </li>
+	        <li>
+	          <img src="images/banner2.jpg" alt="">
+	        	 <div class="banner">
+				<h2>å¥‰çŒ® å‹çˆ± äº’åŠ© è¿›æ­¥ </h2>
+				<p>åˆè‚¥å…«ä¸­å¿ƒçƒ›é’å¹´å¿—æ„¿è€…åä¼š</p>
+			</div>
+	        </li>
+	        <li>
+	          <img src="images/banner.jpg" alt="">
+	         <div class="banner">
+				<h2>å¥‰çŒ® å‹çˆ± äº’åŠ© è¿›æ­¥ </h2>
+				<p>åˆè‚¥å…«ä¸­å¿ƒçƒ›é’å¹´å¿—æ„¿è€…åä¼š</p>
+			</div>
+	        </li>
+	      </ul>
+	  </div>
+	  </div>
+	  <!--header-->
+		<div class="header">
+			<div class="container">			
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt=" " /></a>
+				</div>
+				<div class="top-nav">
+					<span class="menu"> </span>
+					<ul>
+						<li class="active" ><a href="index.html" class="scroll">ä¸»é¡µ </a></li>
+						<li><a href="what.html" class="scroll">ä»‹ç»</a></li>
+						<li><a href="404.html" class="scroll">2017æŠ¥å‘Š</a></li>
+						<li><a href="gallery.html" class="scroll">ç›¸å†Œ</a></li>
+						<li><a href="blog.html" class="scroll">æ–°é—»</a></li>
+						<li><a href="contact.html" class="scroll">è”ç»œ</a></li>
+					</ul>
+					<!--script-->
+				<script>
+					$("span.menu").click(function(){
+						$(".top-nav ul").slideToggle(500, function(){
+						});
+					});
+			</script>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	<!---->
+	<!--content-->
+	<div class="content">
+		<div class="container">
+			<div class="donate">
+				<div class="donate-grid">
+					<p>å…«ä¸­çš„å¿—æ„¿è€…æœåŠ¡å§‹ç»ˆä¿æŒå…¨é¢å‘å±•ï¼Œå°åˆ°å­¦æ ¡ä¸­çš„æ´»åŠ¨ï¼Œå¤§åˆ°ç¤¾ä¼šä¸­çš„äº‹æƒ…ã€‚ä»Žé—ªå®¢å…«ä¸­æ´»åŠ¨åˆ°äº¤é€šå¿—æ„¿è€…ï¼Œå‡ ä¹Žéšå¤„éƒ½èƒ½è§åˆ°å…«ä¸­å¿—æ„¿è€…åŒå­¦ä»¬çš„èº«å½±ã€‚</p>
+				</div>
+					<div class="sit-in">
+						<div class="col-md-4 ad-in">
+							<h5>é—®ç­”</h5>
+							<p>Q:å¿—æ„¿è€…çš„ä¸»è¦å·¥ä½œæ˜¯ä»€ä¹ˆå‘¢ï¼Ÿ</p>
+							<p>Aï¼šå¾ˆå¤šå•¦ï¼Œæ¯”å¦‚è¯´é—ªå®¢çš„å¸ƒç½®ï¼Œå­¦æ ¡å¤§åž‹æ´»åŠ¨çš„å®‰æŽ’ï¼Œä»¥åŠè®¸å¤šæ ¡å¤–çš„æ´»åŠ¨éƒ½æœ‰æˆ‘ä»¬å¿—æ„¿è€…å“¦ovo
+</p>
+						</div>
+						<div class="col-md-4 ad-in">
+							<h5>é—®ç­”</h5>
+							<p>Q:å¿—æ„¿è€…ä¼šä¸ä¼šæœ‰å¾ˆå¤šäº‹æƒ…å¾ˆå ç”¨å­¦ä¹ æ—¶é—´å‘¢ï¼Ÿ
 
-<div class=WordSection1>
+</p>
+							<p>A:ä¸å­˜åœ¨çš„(â—Â°uÂ°â—) ã€æˆ‘ä»¬çš„æ´»åŠ¨å¤§å¤šéƒ½æ˜¯åœ¨è¯¾ä½™æ—¶é—´çš„ï¼Œåœ¨ä¸å ç”¨åŒå­¦ä»¬å­¦ä¹ æ—¶é—´çš„åŒæ—¶ä¹Ÿèƒ½è®©æ›´å¤šåŒå­¦å‚ä¸Žåˆ°å¸®åŠ©åˆ«äººçš„è¡ŒåŠ¨ä¸­æ¥
+ </p>
+						</div>
+						<div class="col-md-4 ad-in">
+							<h5>é—®ç­”</h5>
+							<p>Q:å“‡æˆ‘ä¹Ÿæƒ³å½“å¿—æ„¿è€…ä¸ºå­¦æ ¡åšè´¡çŒ®å‘¢ï¼Œä½†æ˜¯ä¹‹å‰å¿—æ„¿è€…é€‰æ‹”æ²¡æœ‰é€‰ä¸Šæ€Žä¹ˆåŠžå‘¢qwq
 
-<p class=MsoTitleCxSpFirst style='text-indent:48.0pt'><span style='font-size:
-48.0pt;line-height:85%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ºÏ·Ê°ËÖÐÐÄÖòÇàÄêÖ¾Ô¸ÕßÐ­»á</span></p>
+</p>
+							<p>A:æ†‹ï¼æ‹…ï¼å¿ƒï¼è®¸å¤šå¤§åž‹æ´»åŠ¨é™¤äº†å¿—æ„¿è€…åä¼šçš„æˆå‘˜è¿˜ä¼šæœ‰è®¸å¤šå…¶ä»–çš„åŒå­¦å‘¢ï¼æˆ‘ä»¬çƒ­çƒˆæ¬¢è¿Žä¹äºŽåŠ©äººçš„åŒå­¦ï¼  </p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					
+				<a href="#" class="btn  btn-1c">æ”¯æŒ</a>
+				
+			</div>	
+		</div>
+		<!---->
+		<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >ä¼ä¸šç½‘ç«™æ¨¡æ¿</a></div>
+		<div class="number-at">
+		<div class="in-number-in">
+				<div class="in-number">
+					<div class="wmuSlider example1">
+					<div class="wmuSliderWrapper">
+						<article style="position: absolute; width: 100%; opacity: 0;"> 
+					  			<div class="welcome_box">
+					  				<p>æˆ‘ä»¬ç›®å‰ä¸éœ€è¦å¤–ç•Œæ´åŠ©ã€‚æ´»åŠ¨èµ„é‡‘ç”±ä¼šå‘˜æä¾›æ”¯æŒ</p>
+					  			</div>
+								<div class="clearfix"> </div>
+						</article>
+						<article style="position: absolute; width: 100%; opacity: 0;"> 
+					  			<div class="welcome_box">
+					  				<p>æˆ‘ä»¬ä¸»è¦ä»Žäº‹æ ¡å†…æ´»åŠ¨ä»¥åŠéƒ¨åˆ†æ ¡å¤–æ´»åŠ¨ã€‚</p>
+					  			</div>
+								<div class="clearfix"> </div> 	
+						</article>
+						<article style="position: absolute; width: 100%; opacity: 0;"> 
+				   				<div class="welcome_box">
+					  				<p>&nbsp;</p>
+					  			</div>
+								<div class="clearfix"> </div>	   		 	
+						</article>
+			</div>
+		</div>
+		<!---->
+		  <script src="js/jquery.wmuSlider.js"></script> 
+			  <script>
+       			$('.example1').wmuSlider({
+					 pagination : false,
+				});         
+   		     </script> 	
+			</div>
+		</div>
+		<div class="grid-men">
+				<div class="men-grid">
+					<span>äº”æœˆ</span>
+					<p>åˆå…«å¿—æ„¿è€…æ»¨æ¹–çŒ®çˆ±å¿ƒæ´»åŠ¨
+                                            
+ </p>
+					<a href="single.html"><img class="img-responsive" src="images/pi1.jpg" alt=" " /></a>
+				</div>
+				<div class="men-grid number-ape">
+					<span>å…­æœˆ</span>
+					<p>â€œæˆæ›²è¿›æ ¡å›­â€ç§©åºç»´æŠ¤æ´»åŠ¨
+</p>
+					<a href="single.html"><img class="img-responsive" src="images/pi2.jpg" alt=" " /></a>
+				</div>
+				<div class="men-grid ad-right">
+					<span>ä¸ƒæœˆ</span>
+					<p>å¿—æ„¿è€…â€”â€”ä»Šå¤©æˆ‘æ˜¯å°äº¤è­¦ 
+</p>
+					<a href="single.html"><img class="img-responsive" src="images/pi3.jpg" alt=" " /></a>
+				</div>
+				<div class="clearfix"> </div>
+		</div>
+			<div class="clearfix"> </div>
+			</div>
+			<!---->
+			<div class="services-in">
+				<div class="container">
+					<h3>æœåŠ¡</h3>
+					<div class="service-grid">
+						<div class="col-md-4 ser-in">
+							<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><div class="b-line b-line1"></div><div class="b-line b-line2"></div><div class="b-line b-line3"></div><div class="b-line b-line4"></div><div class="b-line b-line5"></div>
+						     <img class="img-responsive" src="images/pic.jpg" style="top: 0px;" alt=" " /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/plus.png" alt="" style="top: 0px;"></h2>
+						  </div></a>
+							<h5>å¿—æ„¿è€…â€”â€”ä»Šå¤©æˆ‘æ˜¯å°äº¤è­¦</h5>
+							<span> </span>
+							<p>7æœˆ6æ—¥ä¸Šåˆåˆè‚¥å…«ä¸­ä¸¾è¡Œäº†â€œæˆ‘å½“å°äº¤è­¦â€â€”â€”ç¬¬å…­å±Šæš‘æœŸäº¤é€šå¿—æ„¿è€…æ´»åŠ¨ã€‚
+å…¬äº¤å¿—æ„¿æˆ‘å…ˆè¡Œï¼Œæ–‡æ˜Žç¤¼ä»ªåœ¨å¿ƒä¸­
+å…­æœˆäºŒåä¸‰æ—¥å‚æ™šï¼Œåˆåˆ°äº†ä½æ ¡ç”Ÿä»¬ç¦»æ ¡çš„æ—¶åˆ»ï¼Œåˆè‚¥å…«ä¸­é«˜ä¸€å¿—æ„¿è€…è”åˆç¤¼ä»ªéƒ¨å…±åŒæŠ«ä¸Šå¿—æ„¿è€…ç»¶å¸¦ï¼Œåœ¨â€œå…«ä¸­ç«™â€ä¸ºä¹˜å…¬äº¤è½¦å›žå®¶çš„åŒå­¦å’Œå®¶é•¿ä»¬å¿—æ„¿æœåŠ¡ 
+</p>														
+							<a href="#" class="btn  btn-1c btn1 btn-1d">æ²¡äº†</a>						
+						</div>
+						<div class="col-md-4 ser-in">
+						<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><div class="b-line b-line1"></div><div class="b-line b-line2"></div><div class="b-line b-line3"></div><div class="b-line b-line4"></div><div class="b-line b-line5"></div>
+						     <img class="img-responsive" src="images/pic1.jpg" style="top: 0px;" alt=" " /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/plus.png" alt="" style="top: 0px;"></h2>
+						  </div></a>
+							<h5>å…«ä¸­å¿—æ„¿è€…åä¼šæŽ¢æœ›â€œå£ç½©å°å¤©ä½¿â€
+</h5>
+							<span> </span>
+							<p>10æœˆ5æ—¥ï¼Œå…«ä¸­å¿—æ„¿è€…åä¼šçš„åŒå­¦ä»¬å‰å¾€çœç«‹å„¿ç«¥åŒ»é™¢é™„è¿‘çš„å´å®¶å¼„æ‘ï¼Œå¼€å±•äº†å…³çˆ±ç™½è¡€ç—…æ‚£å„¿çš„æ´»åŠ¨ã€‚åœ¨é‚£é‡Œçš„æ‰€è§æ‰€é—»ï¼Œæ‰£ä½ä»–ä»¬çš„å¿ƒå¼¦ï¼Œä¹Ÿç»™äºˆä»–ä»¬ä¸åŒçš„æ„Ÿæ‚Ÿã€‚</p>
+							<a href="#" class="btn  btn-1c btn1 btn-1d">è¿˜æ²¡å»ºå®Œ</a>
+						</div>
+						<div class="col-md-4 ser-in">
+							<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><div class="b-line b-line1"></div><div class="b-line b-line2"></div><div class="b-line b-line3"></div><div class="b-line b-line4"></div><div class="b-line b-line5"></div>
+						     <img class="img-responsive" src="images/pic2.jpg" style="top: 0px;" alt=" " /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/plus.png" alt="" style="top: 0px;"></h2>
+						  </div></a>
+							<h5>çŽ¯å¤©é¹…æ¹–çŽ¯ä¿å¿—æ„¿è¡Œæ´»åŠ¨</h5>
+							<span> </span>
+							<p>ä¼´ç€åˆå†¬å‡Œå†½çš„å¯’é£Žï¼Œåˆè‚¥å…«ä¸­å¿ƒçƒ›å¿—æ„¿è€…åä¼šçš„å¿—æ„¿è€…ä»¬è¿›è¡Œäº†â€œçŽ¯å¤©é¹…æ¹–çŽ¯ä¿å¿—æ„¿è¡Œæ´»åŠ¨â€ã€‘
+å¤©é¹…æ¹–ç•”ï¼Œè—åœ¨è‰åªé‡Œçš„çƒŸå¤´ã€åœ¨å…¬è·¯æ—çš„çº¸å±‘é™·å…¥çŸ³å¤´ç¼ä¸­çš„åŒ…è£…è¢‹ã€æŽ‰åœ¨åœ°ä¸Šçš„å®£ä¼ å•éƒ½è¢«åŒå­¦ä»¬ä¸€ä¸€æ‹¾èµ·ï¼›åœ¨è·¯è¾¹è¢«éšæ„åœæ”¾çš„å…±äº«å•è½¦éƒ½è¢«åˆåŠ›æŠ¬èµ·ã€ä¸€ä¸€æ•´ç†åœ°äº•ç„¶æœ‰åº
 
-<p class=MsoTitleCxSpMiddle style='text-indent:48.0pt'><span style='font-size:
-48.0pt;line-height:85%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoTitleCxSpLast><a href="../2017.pdf"><img border=0 width=235
-height=461 src="index.files/image001.png" align=left hspace=29 vspace=19
-alt="ÎÒÃÇÊÇÒ»¸öÄêÇáµÄÐ­»á&#13;&#10;Äú¿ÉÒÔÔÚ´Ë´¦²é¿´ÎÒÃÇµÄ2017ÄêÄêÖÕ×Ü½á¡£ &#13;&#10;&#13;&#10;&#13;&#10;Ð­»á±êÖ¾&#13;&#10; - ËµÃ÷: ÓÃÓÚÕ¹Ê¾Ç¿µ÷µÄ¹ÊÊÂºÍÕÕÆ¬µÄÎÄ±¾¿ò±ßÀ¸¡£"></a></p>
-
-<h1><span style='font-size:24.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÍÅÌå½éÉÜ</span></h1>
-
-<p class=MsoNormal><i><span style='font-size:20.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5B9BD5'>°ËÖÐµÄÖ¾Ô¸Õß·þÎñÊ¼ÖÕ±£³ÖÈ«Ãæ·¢Õ¹£¬Ð¡µ½Ñ§Ð£ÖÐµÄ»î¶¯£¬´óµ½Éç»áÖÐµÄÊÂÇé¡£</span></i></p>
-
-<p class=MsoNormal><i><span style='font-size:20.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5B9BD5'>´ÓÉÁ¿Í°ËÖÐ»î¶¯µ½½»Í¨Ö¾Ô¸Õß£¬¼¸ºõËæ´¦¶¼ÄÜ¼ûµ½°ËÖÐÖ¾Ô¸ÕßÍ¬Ñ§ÃÇµÄÉíÓ°¡£</span></i></p>
-
-<h2><b><span lang=EN-US style='font-size:28.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Q&amp;A</span></b></h2>
-
-<p class=MsoBodyText3><span lang=EN-US style='font-size:28.0pt;line-height:
-118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Q</span><span lang=EN-US style='font-size:
-14.0pt;line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>:</span><span
-style='font-size:14.0pt;line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Ö¾Ô¸ÕßµÄÖ÷Òª¹¤×÷ÊÇÊ²Ã´ÄØ£¿<span
-lang=EN-US><br>
-A</span>£ººÜ¶àÀ²£¬±ÈÈçËµÉÁ¿ÍµÄ²¼ÖÃ£¬Ñ§Ð£´óÐÍ»î¶¯µÄ°²ÅÅ£¬ÒÔ¼°Ðí¶àÐ£ÍâµÄ»î¶¯¶¼ÓÐÎÒÃÇÖ¾Ô¸ÕßÅ¶<span lang=EN-US>ovo<br>
-Q</span>£ºÌýËµ²Î¼ÓÖ¾Ô¸Õß»î¶¯»áÓÐÑ§·Ö¶ÔÂð£¿</span><span style='font-size:14.0pt;line-height:118%;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif'><br>
-</span><span lang=EN-US style='font-size:14.0pt;line-height:118%;font-family:
-"Î¢ÈíÑÅºÚ",sans-serif'>A: </span><span style='font-size:14.0pt;line-height:118%;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif'>¶ÔµÄ£¡Ã¿´ÎÖ¾Ô¸Õß»î¶¯¶¼ÊÇ°´ÕÕÊ±¼ä¼ÆËãÑ§·ÖµÄ£¬ËùÒÔÐ¡»ï°éÃÇ¿ÉÒÔ»ý¼«Ó»Ô¾µØ²ÎÓëÀ´»ñÈ¡Ñ§·Öà¸£¡</span><span
-style='font-size:14.0pt;line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'><br>
-</span><span lang=EN-US style='font-size:14.0pt;line-height:118%;font-family:
-"Î¢ÈíÑÅºÚ",sans-serif'>Q:</span><span style='font-size:14.0pt;line-height:118%;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Ö¾Ô¸Õß»á²»»áÓÐºÜ¶àÊÂÇéºÜÕ¼ÓÃÑ§Ï°Ê±¼äÄØ£¿</span><span
-style='font-size:14.0pt;line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'><br>
-</span><span lang=EN-US style='font-size:14.0pt;line-height:118%;font-family:
-"Î¢ÈíÑÅºÚ",sans-serif'>A:</span><span style='font-size:14.0pt;line-height:118%;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif'>²»´æÔÚµÄ<span lang=EN-US>(</span>¡ñ¡ã<span lang=EN-US>u¡ã¡ñ)
-</span>¡¹ÎÒÃÇµÄ»î¶¯´ó¶à¶¼ÊÇÔÚ¿ÎÓàÊ±¼äµÄ£¬ÔÚ²»Õ¼ÓÃÍ¬Ñ§ÃÇÑ§Ï°Ê±¼äµÄÍ¬Ê±Ò²ÄÜÈÃ¸ü¶àÍ¬Ñ§²ÎÓëµ½°ïÖú±ðÈËµÄÐÐ¶¯ÖÐÀ´</span><span
-style='font-size:14.0pt;line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'><br>
-</span><span lang=EN-US style='font-size:14.0pt;line-height:118%;font-family:
-"Î¢ÈíÑÅºÚ",sans-serif'>Q:</span><span style='font-size:14.0pt;line-height:118%;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÍÛÎÒÒ²Ïëµ±Ö¾Ô¸ÕßÎªÑ§Ð£×ö¹±Ï×ÄØ£¬µ«ÊÇÖ®Ç°Ö¾Ô¸ÕßÑ¡°ÎÃ»ÓÐÑ¡ÉÏÔõÃ´°ìÄØ<span
-lang=EN-US>qwq<br>
-A:</span>±ï£¡µ££¡ÐÄ£¡Ðí¶à´óÐÍ»î¶¯³ýÁËÖ¾Ô¸ÕßÐ­»áµÄ³ÉÔ±»¹»áÓÐÐí¶àÆäËûµÄÍ¬Ñ§ÄØ£¡ÎÒÃÇÈÈÁÒ»¶Ó­ÀÖÓÚÖúÈËµÄÍ¬Ñ§£¡</span><span
-style='font-size:14.0pt;line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'> </span></p>
-
-<h2><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></h2>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<div style='border-top:solid #E76A1D 1.0pt;border-left:none;border-bottom:solid #E76A1D 1.0pt;
-border-right:none;padding:4.0pt 0cm 4.0pt 0cm;margin-left:43.2pt;margin-right:
-43.2pt'>
-
-<p class=a4 style='margin:0cm;margin-bottom:.0001pt'><span style='font-size:
-20.0pt;font-family:"Microsoft YaHei UI",sans-serif'>ÎÒÃÇ°ïÖú</span><span
-style='font-size:20.0pt;font-family:"Microsoft YaHei UI",sans-serif'>ºÏ·Ê°ËÖÐÉêÇëÈ«¹úÖÐÑ§ÉúÖ¾Ô¸·þÎñÊ¾·¶Ñ§Ð£³É¹¦£¡</span></p>
-
-</div>
-
-<p class=MsoBodyText3><span style='font-size:22.0pt;line-height:118%;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoBodyText3><span style='font-size:22.0pt;line-height:118%;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoBodyText3 style='margin-left:100.0pt'><img width=206 height=206
-src="index.files/image002.png" align=right hspace=12
-alt="È«¹úÖÐÑ§ÉúÖ¾Ô¸·þÎñÊ¾·¶Ñ§Ð££¿Í¨Ë×µãÀ´Ëµ£¬¾ÍÊÇ¸ßÖÐÖ¾Ô¸ÕßÄ£·¶Ñ§Ð£µÄÒ»¸ö½±×´£¬Ò»¸öÈÏÖ¤¡£"><span style='font-size:26.0pt;
-line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ºÏ</span><span style='font-size:
-14.0pt;line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>·Ê°ËÖÐ£¬ºÏ·Ê°ËÖÐ£¬ÉêÇëÈ«¹úÖÐÑ§ÉúÖ¾Ô¸·þÎñÊ¾·¶Ñ§Ð£³É¹¦À²£¡<br>
-¡°È«¹úÖÐÑ§ÉúÖ¾Ô¸·þÎñÊ¾·¶Ñ§Ð£¡±£¬ÕâÊÇÊ²Ã´£¿<br>
-Í¨Ë×µãÀ´Ëµ£¬¾ÍÊÇ¸ßÖÐÖ¾Ô¸ÕßÄ£·¶Ñ§Ð£µÄÒ»¸ö½±×´£¬Ò»¸öÈÏÖ¤¡£<br>
-àæÐêßñ£¬ÕâÓÐÊ²Ã´ÁË²»ÆðµÄ¡£°ËÖÐ»ñµÃµÄ½±×´»¹ÉÙÂð£¿<br>
-¿È¿È£¬ÇÃºÚ°å£¬´Ë´ÎÖ¾Ô¸·þÎñÊ¾·¶Ñ§Ð£¹²ÓÐ</span><span lang=EN-US style='font-size:14.0pt;line-height:
-118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>50</span><span style='font-size:14.0pt;
-line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ËùÑ§Ð£ÉêÇë£¬</span><span lang=EN-US
-style='font-size:14.0pt;line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>48</span><span
-style='font-size:14.0pt;line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ËùÑ§Ð£Í¨¹ý¡£<br>
-»®ÖØµã£¬²»ÊÇÈ«¹úÖ»ÓÐ</span><span lang=EN-US style='font-size:14.0pt;line-height:118%;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif'>50</span><span style='font-size:14.0pt;
-line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ËùÑ§Ð£ÉêÇëÁË£¬ÊÇÖ»ÓÐÕâ</span><span
-lang=EN-US style='font-size:14.0pt;line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>50</span><span
-style='font-size:14.0pt;line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ËùÑ§Ð£·ûºÏÉêÇë±ê×¼¡£<br>
-</span><img width=206 height=206 src="index.files/image003.png" align=right
-hspace=4 vspace=4 alt="È«¹ú½öÓÐ48ËùÑ§Ð£ÈëÑ¡£¬°²»ÕÊ¡Ö»ÓÐÁ½¸ö£¬°ñÉÏÓÐÃûµÄÒ²ºÕÈ»ÓÐ×ÅºâË®ÖÐÑ§ÕâÖÖÊµÁ¦Ç¿¾¢µÄÃûÐ£¡£"><span
-style='font-size:14.0pt;line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÄÑ¶ÈÓÐ¶à´ó£¿¿È¿È£¬ÖØµãÒÑ¾­ÔÚÍ¼ÖÐ»­ºÃÁË¡£<br>
-È«¹ú</span><span lang=EN-US style='font-size:14.0pt;line-height:118%;font-family:
-"Î¢ÈíÑÅºÚ",sans-serif'>48</span><span style='font-size:14.0pt;line-height:118%;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ËùÑ§Ð£ÈëÑ¡£¬°²»ÕÊ¡Ö»ÓÐÁ½¸ö£¬°ñÉÏÓÐÃûµÄÒ²ºÕÈ»ÓÐ×ÅºâË®ÖÐÑ§ÕâÖÖÊµÁ¦Ç¿¾¢µÄÃûÐ£¡£<br>
-</span><i><span style='font-size:14.0pt;line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5B9BD5'>°ËÖÐµÄÖ¾Ô¸Õß·þÎñÊ¼ÖÕ±£³ÖÈ«Ãæ·¢Õ¹£¬Ð¡µ½Ñ§Ð£ÖÐµÄ»î¶¯£¬´óµ½Éç»áÖÐµÄÊÂÇé¡£´ÓÉÁ¿Í°ËÖÐ»î¶¯µ½½»Í¨Ö¾Ô¸Õß£¬¼¸ºõËæ´¦¶¼ÄÜ¼ûµ½°ËÖÐÖ¾Ô¸ÕßÍ¬Ñ§ÃÇµÄÉíÓ°¡£</span></i><span
-style='font-size:14.0pt;line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'><br>
-ÔÚ¹ýÈ¥µÄÊ±¼äÀï£¬Ðí¶àÍ¬Ñ§Ò²Ä¬Ä¬·îÏ×ÁËËûÃÇÀÖÓÚÖúÈËµÄÒ»Æ¬³à×ÓÖ®ÐÄ£¬Îª°ËÖÐµÄ½¨Éè¹±Ï×ÁËÒ»·ÝÁ¦Á¿¡£<br>
-ÎªÖ¾Ô¸Õß·þÎñ¶ø½¾°Á£¬Îª°ËÖÐ½¾°Á¡£<br>
-Îª°ËÖÐ·è¿ñ´ò</span><span lang=EN-US style='font-size:14.0pt;line-height:118%;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif'>call</span><span style='font-size:14.0pt;
-line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>£¡£¡£¡</span></p>
-
-<p class=MsoBodyText3 style='margin-left:100.0pt'><span style='font-size:14.0pt;
-line-height:118%;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>¡°ÓÐÒ»ÖÖ¸Ð¶¯ÎÞ´¦²»ÔÚ£¬ÓÐÒ»ÖÖÇé»³ÇáÎè·ÉÑï¡£¡± </span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:11.5pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:10.5pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></p>
-
-</div>
-
+</p>
+							<a href="#" class="btn  btn-1c btn1 btn-1d">çœŸçš„æ²¡äº†</a>							
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<span class="drop"> </span>
+			<p>åˆè‚¥å…«ä¸­ <span>ä¹ å‹è·¯</span></p>
+				<p class="footer-class">åˆè‚¥å…«ä¸­å¿ƒçƒ›é’å¹´å¿—æ„¿è€…åä¼š</p>
+				<ul class="social-icons">
+					<li><a href="#"><span> </span> </a></li>
+					<li class="twitter"><a href="#"><span> </span></a></li>
+					<li class="gmail"><a href="#"><span> </span> </a></li>
+					<li class="print"><a href="#"><span> </span> </a></li>
+				</ul>
+		</div>	
+		</div>
 </body>
-
 </html>
